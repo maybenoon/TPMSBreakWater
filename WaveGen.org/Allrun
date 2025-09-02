@@ -1,0 +1,11 @@
+setFields | tee log.setFields
+
+decomposePar | tee log.decomposePar
+
+cd constant
+python3 pistonWaveGen.py
+cd ..
+
+mpirun -np 4 olaDyMFlow -parallel | tee log.olaDyMFlow
+
+reconstructPar | tee log.reconstructPar

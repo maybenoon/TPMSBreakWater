@@ -1,0 +1,36 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7-3bcbaf946ae9
+Exec   : olaDyMFlow -parallel
+Date   : Oct 13 2023
+Time   : 15:08:21
+Host   : "Eugene"
+PID    : 1586
+I/O    : uncollated
+Case   : /mnt/c/Users/stemg/Downloads/Wave/wavemakerTank/constant
+nProcs : 6
+Slaves : 
+5
+(
+"Eugene.1587"
+"Eugene.1588"
+"Eugene.1589"
+"Eugene.1590"
+"Eugene.1591"
+)
+
+Pstream initialized with:
+    floatTransfer      : 0
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

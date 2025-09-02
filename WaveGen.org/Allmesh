@@ -1,0 +1,13 @@
+surfaceFeatures | tee log.surfacefeatures
+
+blockMesh | tee log.blockMesh
+
+cp -r 0.org 0
+
+snappyHexMesh -overwrite | tee log.snappyHexMesh
+
+renumberMesh -noFields -overwrite | tee log.renumberMesh
+
+checkMesh | tee log.checkMesh
+
+#------------------------------------------------------------------------------

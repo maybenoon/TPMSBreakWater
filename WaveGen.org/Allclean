@@ -1,0 +1,14 @@
+rm -rf [1-9]*
+
+rm -rf 0
+
+cp -r 0.org 0
+
+rm -rf proc*
+
+rm -rf constant/polyMesh
+
+rm -f log.*
+
+rm -rf postProcessing
+
